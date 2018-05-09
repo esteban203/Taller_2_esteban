@@ -1,25 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Wear</title>
     <link rel="stylesheet" href="css/wear_estilos.css">
+    <link rel="stylesheet" href="css/reco.css">
+    
+    
 </head>
+
 <body>
-
     <header>
-
         <div class="nav_loc">
-
             <ul>
-
-
-
                 <img src="img/logo.png" id="logo" />
-
-
                 <li>
                     <a class="active" href="#home">Home</a>
                 </li>
@@ -35,9 +32,7 @@
                 <li>
                     <a href="#about">Sobre nosotros</a>
                 </li>
-
                 <div class="dere">
-
                     <a href="https://www.w3schools.com" class="btn loud-link-hover" data-sound="guitar">
                         <img src="img/carrito.png" id="carrito" />
                     </a>
@@ -45,30 +40,73 @@
                         <img src="img/lupa.png" alt="" style="vertical-align: middle">
                     </button>
                     <input type="search" placeholder="Buscar" class="buscarNavegador">
-
                 </div>
             </ul>
-
         </div>
-
     </header>
 
+  
 
-    <div>
+    <section class="cuerpo">
 
-
-{{#each camisas}}
-                    <p>{{nombre}}</p>
-                    <p>{{precio}}</p>
-                    <p>{{color}}</p>
-                    <p>{{sexo}}</p>
-                    <p>{{coleccion}}</p>  
-                    <p>{{codigo}}</p>
-                    
-        {{/each}}
+          <div class="slide">
 
 
-    </div>
-    
+            <div class="info">
+                <h1>
+                    ANIMANDO TU ESTILO
+                </h1>
+                <p class=light>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet
+                    dolore magna aliquam erat volutpat. </p>
+                </br>
+
+                <div class="precio">
+                    <p> $ 39,900</p>
+                </div>
+
+                <button href="#"> ver más</button>
+
+            </div>
+        </div>
+        <div class="filtro">
+
+        </div>
+        <!--Parte Derecha de la pantalla-->
+        <div class="libros">
+            <div class="mostrar">
+                {{#each camisas}}
+                <div class="libro" data-id="{{this._id}}">
+                    <div class="imagen" style="background-image: url({{libro}});"></div>
+                    <div class="descri">
+                        <p class="nom">
+                            <b>{{nombre}}</b>
+                        </p>
+                        <p class="desc">
+                            Pages: {{paginas}}
+                        </p>
+                        <p class="desc">
+                            Language: {{sexo}}
+                        </p>
+                        <p class="desc">
+                            Price: ${{precio}}
+                        </p>
+                        <p class="desc">
+                            Start: {{calificacion}}
+                        </p>
+                    </div>
+                    <div class="boton" align="center">
+                        <a href="/reco/specific/{{nombre}}">
+                            <button class="more">Learn More...</button>
+                        </a>
+                        <button class="agregar">Add To Card</button>
+                    </div>
+                </div>
+                {{/each}}
+            </div>
+        </div>
+    </section>
+
+
 </body>
+
 </html>

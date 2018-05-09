@@ -16,23 +16,52 @@ app.use(express.static('public'));
 MongoClient.connect('mongodb://localhost:27017', function (err, client) {
     if (err) throw err;
 
-    db = client.db('camisas');
+    db = client.db('test');
 
     // Iniciar servidor
-    app.listen(5000);
+    app.listen(3000);
     console.log("Escuchando servidor")
 });
 
 /*Esta parte es para cargar las paginas*/
 app.get('/', (req, res) => {
-
-    var fuentes = db.collection('camisas')
+    var prod = db.collection('camisas')
         .find();
 
-        fuentes.toArray((err, result) => {
-        console.log('Escuchando servidor')
-        res.render('index', {
-            fuentes: result
+    if (req.query.tematica)
+        prod.filter({
+            tematica: req.query.tematica
+        });
+
+    if (req.query.idioma)
+        prod.filter({
+            idioma: req.query.idioma
+        });
+
+    if (req.query.editorial)
+        prod.filter({
+            editorial: req.query.editorial
+        });
+
+    if (req.query.calificacion)
+        prod.filter({
+            calificacion: parseInt(req.query.calificacion)
+        });
+    prod.toArray((err, result) => {
+        res.render('index', {       
+            camisas: result,
         });
     })
 });
+/*app.get('/', (req, res) => {
+
+    var camisas = db.collection('camisas')
+        .find();
+
+        camisas.toArray((err, result) => {
+        console.log('Escuchando servidor')
+        res.render('index', {
+            camisas: result
+        });
+    })
+});*/

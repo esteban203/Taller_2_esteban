@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,700,800,900');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Covered+By+Your+Grace');
+
+$titulos: 'Covered By Your Grace',cursive;
+$fuente: 'Montserrat',sans-serif;
+
+$dk-blue: #1E83AE;
+$blue: #3D5B94;
+$light-blue: #3DACDD;
+$green: #6dcd9a;
+$social-size: 1.2em;
+$social-width: 20%;
+
+$azul_o: #324D5C;
+$azul_c: #46b09a;
+$magenta: #F23855;
+$naraja: #E07B40;
+$amarillo: #EDC74D;
+$blanco: white;
+$gris:#666666;
+
+.cuerpo{
+    width: 100%;
+    position: relative;
+    padding-top: 50px;
+}
+
+.filtro {
+    width: 20%;
+    height: 100vh;
+    background: $blanco;
+    position: fixed;
+    float: left;
+    top: 0;
+}
+
+.libros {
+    width: 100%;
+    height: 100vh;
+    float: left;
+    padding: 40px 0 0 20%;
+    .mostrar {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 20px;
+        .libro {
+            width: 20%;
+            background: $blanco;
+            margin: 20px;
+            border-radius: 6px;
+        
+            .imagen {
+                width: 100%;
+                height: 15em;
+                background-size: contain;
+                background-repeat: no-repeat;
+                border-radius: 6px 6PX;
+            }
+            .descri {
+                padding: 20px;
+                height: 8em;
+                margin-bottom: 2em;
+                .nom {
+                    font-size: 20px;
+                    margin-bottom: 0.4em;
+                }
+            }
+            .boton {
+                margin: 10px 0;
+                .agregar {
+                    margin: .5em 0;
+                    border: none;
+                    background: $azul_c;
+                    color: #f2f2f2;
+                    font-size: 10px;
+                    border-radius: 25px;
+                    position: relative;
+                    box-sizing: border-box;
+                    transition: all 500ms ease;
+                    padding: 1em 2em;
+                    overflow: hidden;
+                }
+                .more {
+                    margin: .5em 0;
+                    border: 1.5px solid $rose;
+                    background: $white;
+                    color: $azul_o;
+                    font-size: 10px;
+                    border-radius: 25px;
+                    position: relative;
+                    box-sizing: border-box;
+                    transition: all 500ms ease;
+                    padding: 1em 2em;
+                    overflow: hidden;
+                }
+            }
+        }
+    }
+}

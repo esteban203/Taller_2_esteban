@@ -103,11 +103,7 @@ body header .active {
   background-color: #324D5C;
 }
 
-body .ban {
-  width: 200%;
-}
-
-body .ban .slide {
+body .cuerpo .slide {
   background-size: cover;
   background-image: url("img/slider_3.jpg");
   background-position: 0px 0px;
@@ -117,28 +113,28 @@ body .ban .slide {
   background-repeat: no-repeat;
 }
 
-body .ban .slide .info {
+body .cuerpo .slide .info {
   float: right;
   margin-right: 24%;
   width: 526px;
   margin-top: 12%;
 }
 
-body .ban .slide .info h1 {
+body .cuerpo .slide .info h1 {
   font-family: "Covered By Your Grace", cursive;
   color: white;
   font-size: 67px;
   font-weight: 400;
 }
 
-body .ban .slide .info p.light {
+body .cuerpo .slide .info p.light {
   font-family: "Montserrat", sans-serif;
   color: white;
   font-size: 19px;
   font-weight: 400;
 }
 
-body .ban .slide .info .precio {
+body .cuerpo .slide .info .precio {
   padding: 10px;
   padding-left: 25px;
   width: 352px;
@@ -153,7 +149,7 @@ body .ban .slide .info .precio {
   box-shadow: 10px 10px 0px 0px #46b09a;
 }
 
-body .ban .slide .info button {
+body .cuerpo .slide .info button {
   border-radius: 20px;
   text-decoration: none;
   background-color: #324D5C;
@@ -167,17 +163,17 @@ body .ban .slide .info button {
   padding: 10px 60px;
 }
 
-body .ban .slide .info button:hover {
+body .cuerpo .slide .info button:hover {
   background-color: #F23855;
 }
 
-body .ban .foo {
+body .cuerpo .foo {
   height: 3%;
   width: 100%;
   background-color: #46b09a;
 }
 
-body .ban .bar {
+body .cuerpo .bar {
   background-color: #46b09a;
 }
 
