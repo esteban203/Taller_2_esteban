@@ -1,0 +1,749 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,700,800,900");
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+@import url("https://fonts.googleapis.com/css?family=Covered+By+Your+Grace");
+* {
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+body header .nav_loc {
+  z-index: 1000;
+  padding: 0px 70px;
+  width: 100%;
+  background-color: #46b09a;
+  height: 75px;
+  position: fixed;
+}
+
+body header .nav_loc #logo {
+  float: left;
+  padding-top: 10px;
+  margin-right: 30px;
+}
+
+body header .nav_loc ul {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  top: 0;
+  width: 100%;
+}
+
+body header .nav_loc ul li {
+  float: left;
+}
+
+body header .nav_loc ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 28px 16px;
+  text-decoration: none;
+  transition: .4s background-color;
+}
+
+body header .nav_loc ul .dere {
+  border-width: 300i;
+}
+
+body header .nav_loc ul .dere #carrito {
+  float: right;
+  margin-top: 22px;
+  margin-right: 70px;
+  padding-right: 50px;
+}
+
+body header .nav_loc ul .dere .buscar {
+  height: 30px;
+  width: 35px;
+  background-color: white;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  text-decoration: none;
+  border: none;
+  margin-right: 5px;
+  margin-right: 20px;
+  margin-top: 22px;
+  float: right;
+  border-color: white;
+  cursor: pointer;
+}
+
+body header .nav_loc ul .dere .buscarNavegador {
+  border: none;
+  height: 30px;
+  width: 200px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-width: thin;
+  border-color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  margin-top: 22px;
+  padding: 7px 5px 5px 10px;
+  float: right;
+}
+
+body header li a:hover:not(.active) {
+  background-color: #F23855;
+  transition: .3s background-color;
+}
+
+body header .active {
+  background-color: #324D5C;
+}
+
+body .ban {
+  width: 200%;
+}
+
+body .ban .slide {
+  background-size: cover;
+  background-image: url("img/slider_3.jpg");
+  background-position: 0px 0px;
+  margin: 0;
+  background-attachment: fixed;
+  height: 775px;
+  background-repeat: no-repeat;
+}
+
+body .ban .slide .info {
+  float: right;
+  margin-right: 24%;
+  width: 526px;
+  margin-top: 12%;
+}
+
+body .ban .slide .info h1 {
+  font-family: "Covered By Your Grace", cursive;
+  color: white;
+  font-size: 67px;
+  font-weight: 400;
+}
+
+body .ban .slide .info p.light {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  font-size: 19px;
+  font-weight: 400;
+}
+
+body .ban .slide .info .precio {
+  padding: 10px;
+  padding-left: 25px;
+  width: 352px;
+  height: 87px;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  font-size: 71px;
+  font-weight: 800;
+  background-color: #F23855;
+  -webkit-box-shadow: 10px 10px 0px 0px #46b09a;
+  -moz-box-shadow: 10px 10px 0px 0px #46b09a;
+  box-shadow: 10px 10px 0px 0px #46b09a;
+}
+
+body .ban .slide .info button {
+  border-radius: 20px;
+  text-decoration: none;
+  background-color: #324D5C;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 19px;
+  font-weight: 700;
+  border: none;
+  margin-top: 40px;
+  cursor: pointer;
+  padding: 10px 60px;
+}
+
+body .ban .slide .info button:hover {
+  background-color: #F23855;
+}
+
+body .ban .foo {
+  height: 3%;
+  width: 100%;
+  background-color: #46b09a;
+}
+
+body .ban .bar {
+  background-color: #46b09a;
+}
+
+body .promo {
+  height: 395px;
+  background-position: 0px 0px;
+  background: url("img/fon_2.png");
+  background-size: cover;
+  background-color: #324D5C;
+  background-repeat: no-repeat;
+  -webkit-box-shadow: 0px 10px 0px 0px #46b09a;
+  -moz-box-shadow: 0px 10px 0px 0px #46b09a;
+  box-shadow: 0px 10px 0px 0px #46b09a;
+}
+
+body .promo .izq {
+  height: 100%;
+  width: 60%;
+  display: inline-block;
+}
+
+body .promo .izq .gusta {
+  float: left;
+  height: 30%;
+  width: 100%;
+  background-color: #46b09a;
+  padding: 1% 2%;
+  padding-right: 5%;
+  box-sizing: border-box;
+}
+
+body .promo .izq .gusta #sabemos {
+  font-family: "Covered By Your Grace", cursive;
+  color: white;
+  font-size: 54px;
+  font-weight: 400;
+  text-align: right;
+  margin: 1.5% 0%;
+}
+
+body .promo .izq .info_promo {
+  float: left;
+  text-align: right;
+  margin-top: 20px;
+  box-sizing: border-box;
+  height: 45%;
+  width: 100%;
+}
+
+body .promo .izq .info_promo #mul {
+  display: inline;
+  font-family: "Montserrat", sans-serif;
+  color: #EDC74D;
+  font-size: 91px;
+  font-weight: 800;
+  text-align: left;
+}
+
+body .promo .izq .info_promo #fecha {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  display: inline;
+  font-size: 39px;
+  font-weight: 800;
+  padding-right: 10%;
+  margin-left: 5px;
+}
+
+body .promo .izq .info_promo #text {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  text-align: left;
+  float: right;
+  font-size: 19px;
+  font-weight: 300;
+  padding-right: 17%;
+}
+
+body .promo .der {
+  display: inline-block;
+  height: 100%;
+  width: 38%;
+  background: url("img/grupo_busos_3.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0px -30px;
+}
+
+body .lineas {
+  height: 675px;
+  margin-top: 10px;
+  background-position: 0px 0px;
+  background: url("img/fon_3.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 0% 10%;
+  text-align: center;
+}
+
+body .lineas .der_2 {
+  display: inline-block;
+  height: 100%;
+  width: 30%;
+}
+
+body .lineas .der_2 .con_3 {
+  height: 100%;
+  width: 100%;
+  float: right;
+  overflow: hidden;
+  -webkit-box-shadow: 7px 7px 0px 0px #E07B40;
+  -moz-box-shadow: 7px 7px 0px 0px #E07B40;
+  box-shadow: 7px 7px 0px 0px #E07B40;
+}
+
+body .lineas .der_2 .con_3 .lin_3 {
+  height: 100%;
+  width: 100%;
+  background: url("img/linea_6.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: 0px;
+  transition: all .5s;
+}
+
+body .lineas .izq_2 {
+  vertical-align: top;
+  height: 100%;
+  width: 60%;
+  display: inline-block;
+}
+
+body .lineas .izq_2 .conoce {
+  width: 90%;
+  padding: 3% 5%;
+  height: 35%;
+  box-sizing: border-box;
+  float: right;
+  background-color: #46b09a;
+  -webkit-box-shadow: 10px 10px 0px 0px #EDC74D;
+  -moz-box-shadow: 10px 10px 0px 0px #EDC74D;
+  box-shadow: 10px 10px 0px 0px #EDC74D;
+  margin-right: 1.2%;
+  margin-bottom: 3.5%;
+}
+
+body .lineas .izq_2 .conoce p {
+  font-family: "Covered By Your Grace", cursive;
+  color: white;
+  font-size: 54px;
+  font-weight: 400;
+  text-align: left;
+}
+
+body .lineas .izq_2 .conoce #desc {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  text-align: left;
+  float: right;
+  font-size: 19px;
+  font-weight: 300;
+}
+
+body .lineas .izq_2 .con_1 {
+  height: 60%;
+  width: 44%;
+  overflow: hidden;
+  margin: 1%;
+  float: right;
+  -webkit-box-shadow: 7px 7px 0px 0px #324D5C;
+  -moz-box-shadow: 7px 7px 0px 0px #324D5C;
+  box-shadow: 7px 7px 0px 0px #324D5C;
+}
+
+body .lineas .izq_2 .con_1 .lin_1 {
+  height: 100%;
+  width: 120%;
+  background: url("img/linea_1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  transition: all .5s;
+}
+
+body .lineas .izq_2 .con_2 {
+  height: 60%;
+  width: 44%;
+  overflow: hidden;
+  margin: 1%;
+  float: right;
+  -webkit-box-shadow: 7px 7px 0px 0px #F23855;
+  -moz-box-shadow: 7px 7px 0px 0px #F23855;
+  box-shadow: 7px 7px 0px 0px #F23855;
+}
+
+body .lineas .izq_2 .con_2 .lin_2 {
+  height: 100%;
+  width: 100%;
+  background: url("img/linea_2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: all .5s;
+}
+
+body .producto {
+  display: inline-block;
+  width: 100%;
+}
+
+body .producto .carac {
+  margin-top: 4%;
+  width: 100%;
+  height: 460px;
+  background-position: 0px 0px;
+  background: url("img/fon_5.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #EDC74D;
+  -webkit-box-shadow: 0px -10px 0px 0px #46b09a;
+  -moz-box-shadow: 0px- 10px 0px 0px #46b09a;
+  box-shadow: 0px -10px 0px 0px #46b09a;
+}
+
+body .producto .carac .paz {
+  display: inline-block;
+  height: 100%;
+  width: 38%;
+  margin-right: 1%;
+  background: url("img/grupo_busos_1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 100px -10px;
+}
+
+body .producto .carac .espe {
+  display: inline-block;
+  height: 100%;
+  width: 60%;
+  vertical-align: top;
+  padding-top: 4%;
+}
+
+body .producto .carac .espe h1 {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  text-align: left;
+  font-size: 47px;
+  font-weight: 700;
+}
+
+body .producto .carac .espe ul {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  text-align: left;
+  font-size: 32px;
+  font-weight: 300;
+  list-style-image: url("img/circulo.png");
+}
+
+body .producto .carac .espe ul li {
+  line-height: 30px;
+  margin-top: 2%;
+}
+
+body .subs {
+  display: inline-block;
+  height: 145px;
+  width: 100%;
+  vertical-align: middle;
+  padding-top: 4%;
+  text-align: center;
+}
+
+body .subs .text {
+  display: inline-block;
+  height: 100%;
+  width: 40%;
+  padding-left: 15%;
+}
+
+body .subs .text #bold {
+  display: inline;
+  font-family: "Montserrat", sans-serif;
+  color: #F23855;
+  text-align: left;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+body .subs .text p {
+  display: inline;
+  font-family: "Montserrat", sans-serif;
+  color: #666666;
+  font-size: 32px;
+  font-weight: 300;
+}
+
+body .subs .input {
+  height: 100%;
+  width: 30%;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: left;
+  margin-left: 2%;
+}
+
+body .subs .input .correo {
+  display: inline-block;
+  border: 15px solid #F23855;
+  height: 40px;
+  width: 200px;
+  border-width: 5px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  margin-top: 22px;
+  padding: 7px 5px 5px 10px;
+}
+
+body .subs .input .enviar {
+  vertical-align: top;
+  display: inline-block;
+  height: 40px;
+  width: 55px;
+  background-color: white;
+  text-decoration: none;
+  border: 15px solid #F23855;
+  padding: 6px 0px;
+  margin-left: -10px;
+  border-width: 5px;
+  margin-right: 5px;
+  margin-right: 20px;
+  margin-top: 22px;
+  box-sizing: content-box;
+  cursor: pointer;
+}
+
+body .imagenes {
+  padding: 2% 15%;
+  display: inline-block;
+  width: 80%;
+  height: 1151px;
+  background-position: 0px 0px;
+  background: url("img/fon_4.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+body .imagenes .titulo {
+  text-align: left;
+  margin-left: 9%;
+}
+
+body .imagenes .titulo #cole {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 54px;
+  color: #324D5C;
+  font-size: 48px;
+}
+
+body .imagenes .titulo #fecha {
+  font-family: "Covered By Your Grace", cursive;
+  font-weight: 400;
+  font-size: 111px;
+  color: #F23855;
+}
+
+body .imagenes .gallery {
+  margin: 0%;
+}
+
+body footer {
+  font-family: "Montserrat", sans-serif;
+  background-color: #fff;
+  width: 100%;
+  display: inline-block;
+  margin: 0;
+  height: 70px;
+  background-color: #999;
+}
+
+body footer .cont {
+  width: 50%;
+  float: left;
+}
+
+@media (max-width: 600px) {
+  body footer .cont {
+    width: 100%;
+  }
+}
+
+body footer .cont p {
+  padding-left: 10%;
+  color: white;
+  font-size: 0.7em;
+  line-height: 70px;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+}
+
+@media (max-width: 600px) {
+  body footer .cont p {
+    text-align: center;
+    padding: 0;
+  }
+}
+
+body footer .social {
+  width: 50%;
+  float: right;
+}
+
+@media (max-width: 600px) {
+  body footer .social {
+    width: 100%;
+  }
+}
+
+body footer .social a {
+  float: left;
+  line-height: 70px;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
+
+body footer .social a:hover {
+  background-color: #222;
+}
+
+body .linked {
+  background-color: #1E83AE;
+  font-size: 1.2em;
+  width: 20%;
+}
+
+body .face {
+  background-color: #3D5B94;
+  font-size: 1.2em;
+  width: 20%;
+}
+
+body .tweet {
+  background-color: #3DACDD;
+  font-size: 1.2em;
+  width: 20%;
+}
+
+body .support {
+  background-color: #6dcd9a;
+  font-size: 0.8em;
+  width: 40%;
+}
+
+body .overlay_1 {
+  z-index: -1000;
+  position: absolute;
+  bottom: 0;
+  background: black;
+  height: 15%;
+  background: linear-gradient(to bottom, rgba(255, 0, 0, 0), #324d5c);
+  /* Black see-through */
+  color: #f1f1f1;
+  width: 50%;
+  transition: .5s ease;
+  opacity: 0;
+  color: white;
+  font-size: 40px;
+  padding: 35% 20%;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+body .overlay_1 p {
+  font-weight: 300;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+}
+
+body .con_1:hover .overlay_1 {
+  opacity: 1;
+}
+
+body .overlay_2 {
+  z-index: -1000;
+  position: absolute;
+  bottom: 0;
+  background: black;
+  height: 20%;
+  background: linear-gradient(to bottom, rgba(255, 0, 0, 0), #d83851);
+  /* Black see-through */
+  color: #f1f1f1;
+  width: 60%;
+  transition: .5s ease;
+  opacity: 0;
+  color: white;
+  font-size: 40px;
+  padding: 35% 20%;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+body .overlay_2 p {
+  font-weight: 300;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+}
+
+body .con_2:hover .overlay_2 {
+  opacity: 1;
+}
+
+body .overlay_3 {
+  z-index: -1000;
+  position: absolute;
+  bottom: 0;
+  background: black;
+  /* Black see-through */
+  color: #f1f1f1;
+  width: 60%;
+  height: 1%;
+  background: linear-gradient(to bottom, rgba(255, 0, 0, 0), #e07b40);
+  transition: .5s ease;
+  opacity: 0;
+  color: white;
+  font-size: 40px;
+  padding: 50% 20%;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+body .overlay_3 p {
+  font-weight: 300;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+}
+
+body .con_3:hover .overlay_3 {
+  opacity: 1;
+}
+
+body .lin_1:hover {
+  transform: scale(1.2);
+  transition: all .5s;
+  max-height: 100%;
+  cursor: pointer;
+}
+
+body .lin_2:hover {
+  transform: scale(1.2);
+  transition: all .5s;
+  max-height: 100%;
+  cursor: pointer;
+}
+
+body .lin_3:hover {
+  transform: scale(1.2);
+  transition: all .5s;
+  max-height: 100%;
+  cursor: pointer;
+}
+/*# sourceMappingURL=wear_estilos.css.map */

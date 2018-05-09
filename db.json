@@ -1,36 +1,36 @@
-
-
 {
-   
-    "camisetas" : [ 
-        {
-            "nombre" : "astronauta",
-            "precio" : 45000,
-            "color" : "negro",
-            "sexo" : "masculino",
-            "Autor" : "daniel arenas",
-            "coleccion" : "atypical",
-            "codigo" : "a00291392"
+
+    "camisetas": [{
+            "nombre": "astronauta",
+            "precio": 45000,
+            "imagen": "ruta",
+            "color": "negro",
+            "sexo": "masculino",
+            "Autor": "daniel arenas",
+            "coleccion": "atypical",
+            "codigo": "a00291392"
         },
-    
+
         {
-            "nombre" : "kanji",
-            "precio" : 35000,
-            "color" : "blanco",
-            "sexo" : "femenino",
-            "Autor" : "jaime jiraldo",
-            "coleccion" : "essensial",
-            "codigo" : "a00291353"
+            "nombre": "kanji",
+            "precio": 35000,
+            "imagen": "ruta",
+            "color": "blanco",
+            "sexo": "femenino",
+            "Autor": "jaime jiraldo",
+            "coleccion": "essensial",
+            "codigo": "a00291353"
         },
-    
+
         {
-            "nombre" : "buho",
-            "precio" : 40000,
-            "color" : "gris",
-            "sexo" : "masculino",
-            "Autor" : "stefania grimaldo",
-            "coleccion" : "atypical",
-            "codigo" : "A00291398"
+            "nombre": "buho",
+            "precio": 40000,
+            "imagen": "ruta",
+            "color": "gris",
+            "sexo": "masculino",
+            "Autor": "stefania grimaldo",
+            "coleccion": "atypical",
+            "codigo": "A00291398"
         }
     ]
 }
