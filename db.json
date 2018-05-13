@@ -4,20 +4,18 @@
             "nombre": "Astronauta - Azul",
             "camisa" : "img/camisas/Astronauta-AzulOscuro.jpg",
             "precio": 45000,
-            "color": "negro",
+            "color": "azul",
             "Autor": "Daniel Arenas",
-            "coleccion": "atypical",
-            "codigo": "a00291392"
+            "coleccion": "Epica"
         },
 
         {
             "nombre": "Astronauta - Gris",
             "camisa" : "img/camisas/Astronauta-GrisClaro.jpg",
             "precio": 45000,
-            "color": "negro",
+            "color": "gris",
             "Autor": "Daniel Arenas",
-            "coleccion": "atypical",
-            "codigo": "a00291392"
+            "coleccion": "Epica"
         },
 
         {
@@ -26,18 +24,16 @@
             "precio": 45000,
             "color": "negro",
             "Autor": "Daniel Arenas",
-            "coleccion": "atypical",
-            "codigo": "a00291392"
+            "coleccion": "Epica"
         },
 
         {
             "nombre": "Astronauta - Vinotinto",
-            "camisa" : "img/camisas/Astronauta-AzulOscuro.jpg",
+            "camisa" : "img/camisas/Astronauta-Vinotinto.jpg",
             "precio": 45000,
-            "color": "negro",
+            "color": "vinotinto",
             "Autor": "Daniel Arenas",
-            "coleccion": "atypical",
-            "codigo": "a00291392"
+            "coleccion": "Epica"
         },
         
 
@@ -45,20 +41,18 @@
             "nombre": "Beating - Azul",
             "camisa" : "img/camisas/Beating-AzulOscuro.jpg",
             "precio": 35000,
-            "color": "blanco",
+            "color": "azul",
             "Autor": "Jaime Giraldo",
-            "coleccion": "essensial",
-            "codigo": "a00291353"
+            "coleccion": "Epica"
         },
 
         {
             "nombre": "Beating - Gris",
             "camisa" : "img/camisas/Beating-GrisClaro.jpg",
             "precio": 35000,
-            "color": "blanco",
+            "color": "gris",
             "Autor": "Jaime Giraldo",
-            "coleccion": "essensial",
-            "codigo": "a00291353"
+            "coleccion": "Epica"
         },
 
 
@@ -66,20 +60,18 @@
             "nombre": "Beating - Negro",
             "camisa" : "img/camisas/Beating-GrisOscuro.jpg",
             "precio": 35000,
-            "color": "blanco",
+            "color": "negro",
             "Autor": "Jaime Giraldo",
-            "coleccion": "essensial",
-            "codigo": "a00291353"
+            "coleccion": "Epica"
         },
 
         {
             "nombre": "Beating - Vinotinto",
             "camisa" : "img/camisas/Beating-Vinotinto.jpg",
             "precio": 35000,
-            "color": "blanco",
+            "color": "vinotinto",
             "Autor": "Jaime Giraldo",
-            "coleccion": "essensial",
-            "codigo": "a00291353"
+            "coleccion": "Epica"
         },
 
 
@@ -87,62 +79,93 @@
         {
             "nombre": "Kanji - Azul",
             "camisa" : "img/camisas/kanji-AzulOscuro.jpg",
-            "precio": 35000,
-            "color": "blanco",
+            "precio": 38000,
+            "color": "azul",
             "Autor": "Jaime Giraldo",
-            "coleccion": "essensial",
-            "codigo": "a00291353"
+            "coleccion": "Essensial"
         },
 
         {
             "nombre": "Kanji - Gris",
             "camisa" : "img/camisas/kanji-GrisClaro.jpg",
-            "precio": 35000,
-            "color": "blanco",
+            "precio": 38000,
+            "color": "gris",
             "Autor": "Jaime Giraldo",
-            "coleccion": "essensial",
-            "codigo": "a00291353"
+            "coleccion": "Essensial"
         },
 
         {
             "nombre": "Kanji - Negro",
             "camisa" : "img/camisas/kanji-GrisOscuro.jpg",
-            "precio": 35000,
-            "color": "blanco",
+            "precio": 38000,
+            "color": "negro",
             "Autor": "Jaime Giraldo",
-            "coleccion": "essensial",
-            "codigo": "a00291353"
+            "coleccion": "Essensial"
+           
         },
 
         {
             "nombre": "Kanji - Vinotinto",
             "camisa" : "img/camisas/kanji-Vinotinto.jpg",
-            "precio": 35000,
-            "color": "blanco",
+            "precio": 38000,
+            "color": "vinotinto",
             "Autor": "Jaime Giraldo",
-            "coleccion": "essensial",
-            "codigo": "a00291353"
+            "coleccion": "Essensial"
+        },
+
+        {
+            "nombre": "Beating - Azul",
+            "camisa" : "img/camisas/Beating-AzulOscuro.jpg",
+            "precio": 25000,
+            "color": "gris",
+            "Autor": "Camilo Montoya",
+            "coleccion": "Atypical"
+        },
+
+        {
+            "nombre": "Beating - Gris",
+            "camisa" : "img/camisas/Beating-GrisClaro.jpg",
+            "precio": 25000,
+            "color": "gris",
+            "Autor": "Camilo Montoya",
+            "coleccion": "Atypical"
+        },
+
+        {
+            "nombre": "Beating - Negro",
+            "camisa" : "img/camisas/Beating-GrisOscuro.jpg",
+            "precio": 25000,
+            "color": "gris",
+            "Autor": "Camilo Montoya",
+            "coleccion": "Atypical"
+        },
+
+        {
+            "nombre": "Beating - Vinotinto",
+            "camisa" : "img/camisas/Beating-Vinotinto.jpg",
+            "precio": 25000,
+            "color": "gris",
+            "Autor": "Camilo Montoya",
+            "coleccion": "Atypical"
         },
 
         {
             "nombre": "Buho - Gris",
             "camisa" : "img/camisas/Buho-GrisClaro.jpg",
-            "precio": 40000,
+            "precio": 50000,
             "color": "gris",
             "Autor": "Stefania Grimaldo",
-            "coleccion": "atypical",
-            "codigo": "A00291398"
+            "coleccion": "Atypical"
         },
 
 
         {
             "nombre": "Buho - Negro",
             "camisa" : "img/camisas/Buho-GrisOscuro.jpg",
-            "precio": 40000,
-            "color": "gris",
+            "precio": 50000,
+            "color": "negro",
             "Autor": "Stefania Grimaldo",
-            "coleccion": "atypical",
-            "codigo": "A00291398"
+            "coleccion": "Atypical"
         }
     ]
 }

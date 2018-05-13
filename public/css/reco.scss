@@ -30,12 +30,12 @@ $gris:#666666;
     z-index: -1000;
     width: 20%;
     height: 100vh;
-    background: $blanco;
-    
+    background: $blanco;  
     background-color: $azul_o;
-    
     float: left;
     top: 0;
+
+
 }
 
 .libros {
@@ -58,22 +58,31 @@ $gris:#666666;
         
             .imagen {
                 width: 100%;
-                height: 15em;
+                height: 20em;
                 background-size: cover;
                 background-position: center;
                 background-repeat: no-repeat;
-                scale: 20%;
+               
                 
             }
             .descri {
-                padding: 20px;
+                padding: 15px;
                 height: 8em;
                 margin-bottom: 2em;
+                font-family: $fuente;
                 .nom {
                     font-size: 20px;
-                    font-family: $fuente;
+                    
                     margin-bottom: 0.4em;
                 }
+
+                .prec{
+                    margin-top: 10%;
+                    font-size: 25px;
+                    color: $magenta;
+                }
+
+
             }
             .boton {
                 margin: 10px 0;

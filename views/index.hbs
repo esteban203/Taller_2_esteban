@@ -70,6 +70,8 @@
         </div>
         <div class="filtro">
 
+            <p>Filtra tu Búsqueda</p>
+
         </div>
         <!--Parte Derecha de la pantalla-->
         <div class="libros">
@@ -85,17 +87,22 @@
                         <p class="desc">
                             Autor: {{Autor}}
                         </p>
-                        <p class="desc">
-                            Precio: ${{precio}}
+
+                         <p class="desc">
+                            Colección: {{coleccion}}
+                        </p>
+
+                         <p class="prec">
+                         <b>  ${{precio}}</b>
                         </p>
                        
                     </div>
-                    <div class="boton" align="center">
+                   <!-- <div class="boton" align="center">
                         <a href="/reco/specific/{{nombre}}">
                             <button class="more">Learn More...</button>
                         </a>
                         <button class="agregar">Add To Card</button>
-                    </div>
+                    </div> -->
                 </div>
                 {{/each}}
             </div>
