@@ -73,26 +73,22 @@
         </div>
         <!--Parte Derecha de la pantalla-->
         <div class="libros">
+            
             <div class="mostrar">
                 {{#each camisas}}
                 <div class="libro" data-id="{{this._id}}">
-                    <div class="imagen" style="background-image: url({{libro}});"></div>
+                    <div class="imagen" style="background-image: url({{camisa}});"></div>
                     <div class="descri">
                         <p class="nom">
                             <b>{{nombre}}</b>
                         </p>
                         <p class="desc">
-                            Pages: {{paginas}}
+                            Autor: {{Autor}}
                         </p>
                         <p class="desc">
-                            Language: {{sexo}}
+                            Precio: ${{precio}}
                         </p>
-                        <p class="desc">
-                            Price: ${{precio}}
-                        </p>
-                        <p class="desc">
-                            Start: {{calificacion}}
-                        </p>
+                       
                     </div>
                     <div class="boton" align="center">
                         <a href="/reco/specific/{{nombre}}">
@@ -105,8 +101,8 @@
             </div>
         </div>
     </section>
-
-
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script src="js/script.js"></script>
 </body>
 
 </html>

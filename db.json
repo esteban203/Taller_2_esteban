@@ -1,34 +1,146 @@
 {
 
     "camisetas": [{
-            "nombre": "astronauta",
+            "nombre": "Astronauta - Azul",
+            "camisa" : "img/camisas/Astronauta-AzulOscuro.jpg",
             "precio": 45000,
-            "imagen": "ruta",
             "color": "negro",
-            "sexo": "masculino",
-            "Autor": "daniel arenas",
+            "Autor": "Daniel Arenas",
             "coleccion": "atypical",
             "codigo": "a00291392"
         },
 
         {
-            "nombre": "kanji",
+            "nombre": "Astronauta - Gris",
+            "camisa" : "img/camisas/Astronauta-GrisClaro.jpg",
+            "precio": 45000,
+            "color": "negro",
+            "Autor": "Daniel Arenas",
+            "coleccion": "atypical",
+            "codigo": "a00291392"
+        },
+
+        {
+            "nombre": "Astronauta - Negro",
+            "camisa" : "img/camisas/Astronauta-GrisOscuro.jpg",
+            "precio": 45000,
+            "color": "negro",
+            "Autor": "Daniel Arenas",
+            "coleccion": "atypical",
+            "codigo": "a00291392"
+        },
+
+        {
+            "nombre": "Astronauta - Vinotinto",
+            "camisa" : "img/camisas/Astronauta-AzulOscuro.jpg",
+            "precio": 45000,
+            "color": "negro",
+            "Autor": "Daniel Arenas",
+            "coleccion": "atypical",
+            "codigo": "a00291392"
+        },
+        
+
+        {
+            "nombre": "Beating - Azul",
+            "camisa" : "img/camisas/Beating-AzulOscuro.jpg",
             "precio": 35000,
-            "imagen": "ruta",
             "color": "blanco",
-            "sexo": "femenino",
-            "Autor": "jaime jiraldo",
+            "Autor": "Jaime Giraldo",
             "coleccion": "essensial",
             "codigo": "a00291353"
         },
 
         {
-            "nombre": "buho",
+            "nombre": "Beating - Gris",
+            "camisa" : "img/camisas/Beating-GrisClaro.jpg",
+            "precio": 35000,
+            "color": "blanco",
+            "Autor": "Jaime Giraldo",
+            "coleccion": "essensial",
+            "codigo": "a00291353"
+        },
+
+
+        {
+            "nombre": "Beating - Negro",
+            "camisa" : "img/camisas/Beating-GrisOscuro.jpg",
+            "precio": 35000,
+            "color": "blanco",
+            "Autor": "Jaime Giraldo",
+            "coleccion": "essensial",
+            "codigo": "a00291353"
+        },
+
+        {
+            "nombre": "Beating - Vinotinto",
+            "camisa" : "img/camisas/Beating-Vinotinto.jpg",
+            "precio": 35000,
+            "color": "blanco",
+            "Autor": "Jaime Giraldo",
+            "coleccion": "essensial",
+            "codigo": "a00291353"
+        },
+
+
+
+        {
+            "nombre": "Kanji - Azul",
+            "camisa" : "img/camisas/kanji-AzulOscuro.jpg",
+            "precio": 35000,
+            "color": "blanco",
+            "Autor": "Jaime Giraldo",
+            "coleccion": "essensial",
+            "codigo": "a00291353"
+        },
+
+        {
+            "nombre": "Kanji - Gris",
+            "camisa" : "img/camisas/kanji-GrisClaro.jpg",
+            "precio": 35000,
+            "color": "blanco",
+            "Autor": "Jaime Giraldo",
+            "coleccion": "essensial",
+            "codigo": "a00291353"
+        },
+
+        {
+            "nombre": "Kanji - Negro",
+            "camisa" : "img/camisas/kanji-GrisOscuro.jpg",
+            "precio": 35000,
+            "color": "blanco",
+            "Autor": "Jaime Giraldo",
+            "coleccion": "essensial",
+            "codigo": "a00291353"
+        },
+
+        {
+            "nombre": "Kanji - Vinotinto",
+            "camisa" : "img/camisas/kanji-Vinotinto.jpg",
+            "precio": 35000,
+            "color": "blanco",
+            "Autor": "Jaime Giraldo",
+            "coleccion": "essensial",
+            "codigo": "a00291353"
+        },
+
+        {
+            "nombre": "Buho - Gris",
+            "camisa" : "img/camisas/Buho-GrisClaro.jpg",
             "precio": 40000,
-            "imagen": "ruta",
             "color": "gris",
-            "sexo": "masculino",
-            "Autor": "stefania grimaldo",
+            "Autor": "Stefania Grimaldo",
+            "coleccion": "atypical",
+            "codigo": "A00291398"
+        },
+
+
+        {
+            "nombre": "Buho - Negro",
+            "camisa" : "img/camisas/Buho-GrisOscuro.jpg",
+            "precio": 40000,
+            "color": "gris",
+            "Autor": "Stefania Grimaldo",
             "coleccion": "atypical",
             "codigo": "A00291398"
         }

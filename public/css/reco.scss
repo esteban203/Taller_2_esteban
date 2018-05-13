@@ -27,24 +27,29 @@ $gris:#666666;
 }
 
 .filtro {
+    z-index: -1000;
     width: 20%;
     height: 100vh;
     background: $blanco;
-    position: fixed;
+    
+    background-color: $azul_o;
+    
     float: left;
     top: 0;
 }
 
 .libros {
-    width: 100%;
+    
+    width: 80%;
     height: 100vh;
     float: left;
-    padding: 40px 0 0 20%;
+    
     .mostrar {
         width: 100%;
         display: flex;
         flex-wrap: wrap;
         padding: 20px;
+        padding-left: 5%;
         .libro {
             width: 20%;
             background: $blanco;
@@ -54,9 +59,11 @@ $gris:#666666;
             .imagen {
                 width: 100%;
                 height: 15em;
-                background-size: contain;
+                background-size: cover;
+                background-position: center;
                 background-repeat: no-repeat;
-                border-radius: 6px 6PX;
+                scale: 20%;
+                
             }
             .descri {
                 padding: 20px;
@@ -64,6 +71,7 @@ $gris:#666666;
                 margin-bottom: 2em;
                 .nom {
                     font-size: 20px;
+                    font-family: $fuente;
                     margin-bottom: 0.4em;
                 }
             }

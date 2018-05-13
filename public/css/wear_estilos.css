@@ -104,6 +104,7 @@ body header .active {
 }
 
 body .cuerpo .slide {
+  z-index: 1000;
   background-size: cover;
   background-position: 0px 0px;
   margin: 0;

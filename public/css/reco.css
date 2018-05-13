@@ -8,19 +8,19 @@
 }
 
 .filtro {
+  z-index: -1000;
   width: 20%;
   height: 100vh;
   background: white;
-  position: fixed;
+  background-color: #324D5C;
   float: left;
   top: 0;
 }
 
 .libros {
-  width: 100%;
+  width: 80%;
   height: 100vh;
   float: left;
-  padding: 40px 0 0 20%;
 }
 
 .libros .mostrar {
@@ -28,6 +28,7 @@
   display: flex;
   flex-wrap: wrap;
   padding: 20px;
+  padding-left: 5%;
 }
 
 .libros .mostrar .libro {
@@ -40,9 +41,10 @@
 .libros .mostrar .libro .imagen {
   width: 100%;
   height: 15em;
-  background-size: contain;
+  background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
-  border-radius: 6px 6PX;
+  scale: 20%;
 }
 
 .libros .mostrar .libro .descri {
@@ -53,6 +55,7 @@
 
 .libros .mostrar .libro .descri .nom {
   font-size: 20px;
+  font-family: "Montserrat", sans-serif;
   margin-bottom: 0.4em;
 }
 
