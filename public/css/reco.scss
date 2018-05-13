@@ -24,42 +24,58 @@ $gris:#666666;
     width: 100%;
     position: relative;
     padding-top: 50px;
+   
 }
 
-.filtro {
-    z-index: -1000;
-    width: 20%;
+
+
+.productos {
+    padding: 3%;
+    padding-left: 6%;
+    width: 100%;
     height: 100vh;
-    background: $blanco;  
-    background-color: $azul_o;
     float: left;
-    top: 0;
 
-
-}
-
-.libros {
+    .filtro {
+        text-align: center;
+        z-index: -1000;
+        width: 20%;
+        height: 100vh;
+        background: $blanco;  
+        background-color: $azul_c;
+        float: left;
+        top: 0;
+        padding: 1%;
+        padding-top: 2%;
     
-    width: 80%;
-    height: 100vh;
-    float: left;
+        b{
+            font-family: $fuente;
+            color: $blanco;
+            font-size: 24px;
+            padding: 10%;
+        }
+    
+    
+    }
     
     .mostrar {
-        width: 100%;
+        width: 70%;
         display: flex;
         flex-wrap: wrap;
-        padding: 20px;
-        padding-left: 5%;
+        padding-left: 2%;
+        margin-right: 0px;
+        
+
         .libro {
             width: 20%;
             background: $blanco;
-            margin: 20px;
+            margin-right: 30px;
             border-radius: 6px;
         
             .imagen {
                 width: 100%;
                 height: 20em;
-                background-size: cover;
+                background-size: 420px;
                 background-position: center;
                 background-repeat: no-repeat;
                

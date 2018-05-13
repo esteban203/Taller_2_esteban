@@ -116,18 +116,18 @@ body {
     .cuerpo {
         
         .slide {
-            z-index: 1000;
+            
             background-size: cover; 
             background-position: 0px 0px;
             margin: 0;
             background-attachment: fixed;
-            height: 775px;
+            height: 500px;
             background-repeat: no-repeat;
-            .info {
-                float: right;
-                margin-right: 24%;
-                width: 526px;
-                margin-top: 12%;
+            .coleccion {
+                background-size: cover;
+                z-index: 1000;
+                height: 500px;
+                background-position: 0px 0px;
                 h1 {
                     font-family: $titulos;
                     color: $blanco;

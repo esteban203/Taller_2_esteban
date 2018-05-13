@@ -2,7 +2,7 @@
 
     "camisetas": [{
             "nombre": "Astronauta - Azul",
-            "camisa" : "img/camisas/Astronauta-AzulOscuro.jpg",
+            "camisa" : "img/camisas/astronauta_azuloscuro.jpg",
             "precio": 45000,
             "color": "azul",
             "Autor": "Daniel Arenas",
@@ -11,7 +11,7 @@
 
         {
             "nombre": "Astronauta - Gris",
-            "camisa" : "img/camisas/Astronauta-GrisClaro.jpg",
+            "camisa" : "img/camisas/astronauta_grisclaro.jpg",
             "precio": 45000,
             "color": "gris",
             "Autor": "Daniel Arenas",
@@ -20,7 +20,7 @@
 
         {
             "nombre": "Astronauta - Negro",
-            "camisa" : "img/camisas/Astronauta-GrisOscuro.jpg",
+            "camisa" : "img/camisas/astronauta_grisoscuro.jpg",
             "precio": 45000,
             "color": "negro",
             "Autor": "Daniel Arenas",
@@ -29,7 +29,7 @@
 
         {
             "nombre": "Astronauta - Vinotinto",
-            "camisa" : "img/camisas/Astronauta-Vinotinto.jpg",
+            "camisa" : "img/camisas/astronauta_vinotinto.jpg",
             "precio": 45000,
             "color": "vinotinto",
             "Autor": "Daniel Arenas",
@@ -39,7 +39,7 @@
 
         {
             "nombre": "Beating - Azul",
-            "camisa" : "img/camisas/Beating-AzulOscuro.jpg",
+            "camisa" : "img/camisas/beating_azuloscuro.jpg",
             "precio": 35000,
             "color": "azul",
             "Autor": "Jaime Giraldo",
@@ -48,7 +48,7 @@
 
         {
             "nombre": "Beating - Gris",
-            "camisa" : "img/camisas/Beating-GrisClaro.jpg",
+            "camisa" : "img/camisas/beating_grisclaro.jpg",
             "precio": 35000,
             "color": "gris",
             "Autor": "Jaime Giraldo",
@@ -58,7 +58,7 @@
 
         {
             "nombre": "Beating - Negro",
-            "camisa" : "img/camisas/Beating-GrisOscuro.jpg",
+            "camisa" : "img/camisas/beating_grisoscuro.jpg",
             "precio": 35000,
             "color": "negro",
             "Autor": "Jaime Giraldo",
@@ -67,7 +67,7 @@
 
         {
             "nombre": "Beating - Vinotinto",
-            "camisa" : "img/camisas/Beating-Vinotinto.jpg",
+            "camisa" : "img/camisas/beating_Vinotinto.jpg",
             "precio": 35000,
             "color": "vinotinto",
             "Autor": "Jaime Giraldo",
@@ -78,7 +78,7 @@
 
         {
             "nombre": "Kanji - Azul",
-            "camisa" : "img/camisas/kanji-AzulOscuro.jpg",
+            "camisa" : "img/camisas/kanji_azuloscuro.jpg",
             "precio": 38000,
             "color": "azul",
             "Autor": "Jaime Giraldo",
@@ -87,7 +87,7 @@
 
         {
             "nombre": "Kanji - Gris",
-            "camisa" : "img/camisas/kanji-GrisClaro.jpg",
+            "camisa" : "img/camisas/kanji_grisclaro.jpg",
             "precio": 38000,
             "color": "gris",
             "Autor": "Jaime Giraldo",
@@ -96,7 +96,7 @@
 
         {
             "nombre": "Kanji - Negro",
-            "camisa" : "img/camisas/kanji-GrisOscuro.jpg",
+            "camisa" : "img/camisas/kanji_grisoscuro.jpg",
             "precio": 38000,
             "color": "negro",
             "Autor": "Jaime Giraldo",
@@ -106,7 +106,7 @@
 
         {
             "nombre": "Kanji - Vinotinto",
-            "camisa" : "img/camisas/kanji-Vinotinto.jpg",
+            "camisa" : "img/camisas/kanji_vinotinto.jpg",
             "precio": 38000,
             "color": "vinotinto",
             "Autor": "Jaime Giraldo",
@@ -115,7 +115,7 @@
 
         {
             "nombre": "Beating - Azul",
-            "camisa" : "img/camisas/Beating-AzulOscuro.jpg",
+            "camisa" : "img/camisas/beating_azuloscuro.jpg",
             "precio": 25000,
             "color": "gris",
             "Autor": "Camilo Montoya",
@@ -124,7 +124,7 @@
 
         {
             "nombre": "Beating - Gris",
-            "camisa" : "img/camisas/Beating-GrisClaro.jpg",
+            "camisa" : "img/camisas/beating_grisclaro.jpg",
             "precio": 25000,
             "color": "gris",
             "Autor": "Camilo Montoya",
@@ -133,7 +133,7 @@
 
         {
             "nombre": "Beating - Negro",
-            "camisa" : "img/camisas/Beating-GrisOscuro.jpg",
+            "camisa" : "img/camisas/beating_grisoscuro.jpg",
             "precio": 25000,
             "color": "gris",
             "Autor": "Camilo Montoya",
@@ -142,7 +142,7 @@
 
         {
             "nombre": "Beating - Vinotinto",
-            "camisa" : "img/camisas/Beating-Vinotinto.jpg",
+            "camisa" : "img/camisas/beating_Vinotinto.jpg",
             "precio": 25000,
             "color": "gris",
             "Autor": "Camilo Montoya",
@@ -151,7 +151,7 @@
 
         {
             "nombre": "Buho - Gris",
-            "camisa" : "img/camisas/Buho-GrisClaro.jpg",
+            "camisa" : "img/camisas/buho_grisclaro.jpg",
             "precio": 50000,
             "color": "gris",
             "Autor": "Stefania Grimaldo",
@@ -161,7 +161,7 @@
 
         {
             "nombre": "Buho - Negro",
-            "camisa" : "img/camisas/Buho-GrisOscuro.jpg",
+            "camisa" : "img/camisas/buho_grisoscuro.jpg",
             "precio": 50000,
             "color": "negro",
             "Autor": "Stefania Grimaldo",

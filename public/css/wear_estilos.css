@@ -104,37 +104,36 @@ body header .active {
 }
 
 body .cuerpo .slide {
-  z-index: 1000;
   background-size: cover;
   background-position: 0px 0px;
   margin: 0;
   background-attachment: fixed;
-  height: 775px;
+  height: 500px;
   background-repeat: no-repeat;
 }
 
-body .cuerpo .slide .info {
-  float: right;
-  margin-right: 24%;
-  width: 526px;
-  margin-top: 12%;
+body .cuerpo .slide .coleccion {
+  background-size: cover;
+  z-index: 1000;
+  height: 500px;
+  background-position: 0px 0px;
 }
 
-body .cuerpo .slide .info h1 {
+body .cuerpo .slide .coleccion h1 {
   font-family: "Covered By Your Grace", cursive;
   color: white;
   font-size: 67px;
   font-weight: 400;
 }
 
-body .cuerpo .slide .info p.light {
+body .cuerpo .slide .coleccion p.light {
   font-family: "Montserrat", sans-serif;
   color: white;
   font-size: 19px;
   font-weight: 400;
 }
 
-body .cuerpo .slide .info .precio {
+body .cuerpo .slide .coleccion .precio {
   padding: 10px;
   padding-left: 25px;
   width: 352px;
@@ -149,7 +148,7 @@ body .cuerpo .slide .info .precio {
   box-shadow: 10px 10px 0px 0px #46b09a;
 }
 
-body .cuerpo .slide .info button {
+body .cuerpo .slide .coleccion button {
   border-radius: 20px;
   text-decoration: none;
   background-color: #324D5C;
@@ -163,7 +162,7 @@ body .cuerpo .slide .info button {
   padding: 10px 60px;
 }
 
-body .cuerpo .slide .info button:hover {
+body .cuerpo .slide .coleccion button:hover {
   background-color: #F23855;
 }
 

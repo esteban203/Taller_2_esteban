@@ -23,6 +23,10 @@ $(document).ready(function(){
 		$('.imagenes').css({
 			'background-position': '0 -' + posicion  + 'px'
 		});
+
+		$('.coleccion').css({
+			'background-position': '0 -' + posicion  + 'px'
+		});
  
 	});
  
