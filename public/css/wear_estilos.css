@@ -53,17 +53,19 @@ body header .nav_loc ul .dere {
   border-width: 300i;
 }
 
-body header .nav_loc ul .dere #carrito {
+body header .nav_loc ul .dere #car {
   float: right;
   margin-top: 22px;
-  margin-right: 70px;
-  padding-right: 50px;
+  margin-right: 10px;
+  padding-right: 10px;
 }
 
 body header .nav_loc ul .dere .carrito {
-  margin-left: 30px;
-  padding: 5px 5px;
-  position: relative;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 28px;
+  float: right;
+  margin-right: 110px;
 }
 
 body header .nav_loc ul .dere .buscar {
@@ -186,24 +188,100 @@ body .cuerpo .bar {
 
 body .cuerpo .produc {
   margin: 5%;
+  display: inline-flex;
+  width: 100%;
 }
 
 body .cuerpo .produc .imagen_pro {
-  width: 500px;
-  height: 500px;
+  width: 50%;
+  height: 800px;
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 body .cuerpo .produc .detalles {
+  width: 40%;
+  text-align: left;
+  margin-left: 3%;
   font-family: "Montserrat", sans-serif;
   font-size: 20px;
 }
 
+body .cuerpo .produc .detalles .dropbtn {
+  transition: 0.5s;
+  border: 3px solid #324D5C;
+  height: 40px;
+  width: 160px;
+  background-color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  color: black;
+  margin-left: 5px;
+}
+
+body .cuerpo .produc .detalles .dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+body .cuerpo .produc .detalles .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #46b09a;
+  min-width: 160px;
+}
+
+body .cuerpo .produc .detalles .dropdown-content a {
+  color: #324D5C;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-family: "Montserrat", sans-serif;
+}
+
+body .cuerpo .produc .detalles .dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+body .cuerpo .produc .detalles .dropdown:hover .dropdown-content {
+  display: block;
+}
+
+body .cuerpo .produc .detalles .dropdown:hover .dropbtn {
+  margin: -1px;
+  color: white;
+  transition: 0.5s;
+  border: 3px solid #324D5C;
+  background-color: #324D5C;
+  cursor: pointer;
+}
+
 body .cuerpo .produc .detalles .prec {
-  margin-top: 2%;
+  margin-top: 3%;
   font-size: 25px;
   color: #F23855;
+  margin-bottom: 2%;
+}
+
+body .cuerpo .produc .detalles h1 {
+  color: #324D5C;
+}
+
+body .cuerpo .produc .detalles li {
+  margin-top: 2px;
+  color: #666666;
+}
+
+body .cuerpo .produc .detalles h2 {
+  font-size: 24px;
+  margin-top: 2%;
+  color: #666666;
+  margin-bottom: 2%;
+}
+
+body .cuerpo .produc .detalles #compo {
+  margin-top: 2%;
 }
 
 footer {

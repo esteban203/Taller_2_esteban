@@ -34,8 +34,9 @@
                 </li>
                 <div class="dere">
                     <a href="/checkout" class="btn loud-link-hover" >
-                        <img src="img/carrito.png" id="carrito" />
-                         <span class="carrito">0</span>
+                     <span class="carrito">0</span>
+                        <img src="img/carrito.png" id="car"/>
+                        
                     </a>
                     <button type="button" class="buscar">
                         <img src="img/lupa.png" alt="" style="vertical-align: middle">
@@ -59,8 +60,8 @@
             </div>
         </div>
 
-        <!--Parte Derecha de la pantalla-->
-        <div class="productos">
+        <!--productos de la tienda-->
+        <div class="productos" style='background-image: url("img/fon_3.png");'>
 
             <div class="filtro">
 
@@ -110,7 +111,7 @@
             <div class="mostrar">
                 {{#each camisas}}
 
-                <div class="libro" data-id="{{this._id}}">
+                <div class="cami" data-id="{{this._id}}">
                     <a href="/producto/{{nombre}}">
                         <div class="imagen" style="background-image: url({{camisa}});"></div>
                     </a>
@@ -129,6 +130,8 @@
                         <p class="prec">
                             <b> ${{precio}}</b>
                         </p>
+
+                        
 
                     </div>
 

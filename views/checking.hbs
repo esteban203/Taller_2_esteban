@@ -5,52 +5,66 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Intense Converse</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>Wear</title>
+    <link rel="stylesheet" href="css/wear_estilos.css">
+    <link rel="stylesheet" href="css/estilos.css">
+
 
 </head>
 
 <body>
-    <section class="navegacion">
-        <nav>
-            
-            <ul class="navegacion-menu">
-                <li class="global">
-                    <p>INTENSE</p>
+    <header>
+        <div class="nav_loc">
+            <ul>
+                <img src="img/logo.png" id="logo" />
+                <li>
+                    <a   href="/" >Home</a>
                 </li>
-                <li class="global">
-                    <a href="/home">HOME</a>
+                <li>
+                    <a class="active" href="">Hombres</a>
                 </li>
-                <li class="global">
-                    <a href="/">Tienda</a>
+                <li>
+                    <a >Mujeres</a>
                 </li>
-                <li class="global">
-                    <a href="#">
-                        Nosotros
+                <li>
+                    <a >interacción</a>
+                </li>
+                <li>
+                    <a >Sobre nosotros</a>
+                </li>
+               <div class="dere">
+                    <a href="/checkout" class="btn loud-link-hover" >
+                     <span class="carrito">0</span>
+                        <img src="img/carrito.png" id="car"/>
+                        
                     </a>
-                </li>
-                <li class="global">
-                    <a href="#">Contacto</a>
-                </li>
-
+                    <button type="button" class="buscar">
+                        <img src="img/lupa.png" alt="" style="vertical-align: middle">
+                    </button>
+                    <input type="search" placeholder="Buscar" class="buscarNavegador">
+                </div>
             </ul>
+        </div>
+    </header>
 
-            <input type="search" placeholder="Buscar" class="buscarNavegador">
-            <button type="button" class="buscar">
-                <img src="https://www.iconsdb.com/icons/preview/black/search-13-xxl.png" alt="" style="vertical-align: middle; width:15px">
-            </button>
 
-            <button type="button" class="carrito">
-                <a href="/checkout"></a>
-                <img src="https://www.iconsdb.com/icons/preview/white/cart-73-xxl.png" alt="" style="vertical-align: middle; width:15px">
-            </button>
-        </nav>
-    </section>
+
+    <section class="cuerpo">
+
+        <div class="slide" style='background-image: url("img/slider_2.jpg");'>
+
+
+            <div class="coleccion" style='background-image: url("img/colecciones_2.png");'>
+
+
+            </div>
+        </div>
+
 
     <div class="misJuegos">
         <div class="infoMisJuegos">
             <div class="tituloMisJuegos">
-                <h1>Mis Juegos</h1>
+                <h1>Mis productos</h1>
             </div>
             <div class="logoMisJuegos">
             </div>
@@ -90,6 +104,7 @@
         </div>
     </footer>
 
+     <script src="js/script.js"></script>
     <script src="js/cliente.js"></script>
     <script src="js/checkout.js"></script>
 </body>
