@@ -6,8 +6,6 @@
 }
 
 body {
-  margin: 0;
-  display: flex;
   max-width: 100%;
   overflow-x: hidden;
 }
@@ -62,6 +60,12 @@ body header .nav_loc ul .dere #carrito {
   padding-right: 50px;
 }
 
+body header .nav_loc ul .dere .carrito {
+  margin-left: 30px;
+  padding: 5px 5px;
+  position: relative;
+}
+
 body header .nav_loc ul .dere .buscar {
   height: 30px;
   width: 35px;
@@ -101,6 +105,10 @@ body header li a:hover:not(.active) {
 
 body header .active {
   background-color: #324D5C;
+}
+
+body .cuerpo {
+  width: 100%;
 }
 
 body .cuerpo .slide {
@@ -176,205 +184,142 @@ body .cuerpo .bar {
   background-color: #46b09a;
 }
 
-body .promo {
-  height: 395px;
-  background-position: 0px 0px;
-  background: url("img/fon_2.png");
+body .cuerpo .produc {
+  margin: 5%;
+}
+
+body .cuerpo .produc .imagen_pro {
+  width: 500px;
+  height: 500px;
   background-size: cover;
+  background-repeat: no-repeat;
+}
+
+body .cuerpo .produc .detalles {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+}
+
+body .cuerpo .produc .detalles .prec {
+  margin-top: 2%;
+  font-size: 25px;
+  color: #F23855;
+}
+
+footer {
+  padding-left: 3%;
+  position: relative;
+  left: 0px;
+  bottom: 0;
+  height: 200px;
+  width: 100%;
+  display: flex;
   background-color: #324D5C;
-  background-repeat: no-repeat;
-  -webkit-box-shadow: 0px 10px 0px 0px #46b09a;
-  -moz-box-shadow: 0px 10px 0px 0px #46b09a;
-  box-shadow: 0px 10px 0px 0px #46b09a;
+  /* Social Icons */
 }
 
-body .promo .izq {
-  height: 100%;
-  width: 60%;
-  display: inline-block;
-}
-
-body .promo .izq .gusta {
-  float: left;
-  height: 30%;
-  width: 100%;
-  background-color: #46b09a;
-  padding: 1% 2%;
-  padding-right: 5%;
-  box-sizing: border-box;
-}
-
-body .promo .izq .gusta #sabemos {
-  font-family: "Covered By Your Grace", cursive;
-  color: white;
-  font-size: 54px;
-  font-weight: 400;
-  text-align: right;
-  margin: 1.5% 0%;
-}
-
-body .promo .izq .info_promo {
-  float: left;
-  text-align: right;
-  margin-top: 20px;
-  box-sizing: border-box;
-  height: 45%;
-  width: 100%;
-}
-
-body .promo .izq .info_promo #mul {
-  display: inline;
-  font-family: "Montserrat", sans-serif;
-  color: #EDC74D;
-  font-size: 91px;
-  font-weight: 800;
-  text-align: left;
-}
-
-body .promo .izq .info_promo #fecha {
+footer h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
   font-family: "Montserrat", sans-serif;
   color: white;
-  display: inline;
-  font-size: 39px;
-  font-weight: 800;
-  padding-right: 10%;
-  margin-left: 5px;
 }
 
-body .promo .izq .info_promo #text {
+footer p {
   font-family: "Montserrat", sans-serif;
   color: white;
-  text-align: left;
-  float: right;
-  font-size: 19px;
-  font-weight: 300;
-  padding-right: 17%;
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
 }
 
-body .promo .der {
-  display: inline-block;
+footer a {
+  text-decoration: none;
+  text-decoration-line: none;
+  text-decoration-color: white;
+  color: white;
+}
+
+footer .flex-container {
   height: 100%;
-  width: 38%;
-  background: url("img/grupo_busos_3.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 0px -30px;
-}
-
-body .lineas {
-  height: 675px;
-  margin-top: 10px;
-  background-position: 0px 0px;
-  background: url("img/fon_3.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  padding: 0% 10%;
-  text-align: center;
-}
-
-body .lineas .der_2 {
-  display: inline-block;
-  height: 100%;
-  width: 30%;
-}
-
-body .lineas .der_2 .con_3 {
-  height: 100%;
-  width: 100%;
-  float: right;
-  overflow: hidden;
-  -webkit-box-shadow: 7px 7px 0px 0px #E07B40;
-  -moz-box-shadow: 7px 7px 0px 0px #E07B40;
-  box-shadow: 7px 7px 0px 0px #E07B40;
-}
-
-body .lineas .der_2 .con_3 .lin_3 {
-  height: 100%;
-  width: 100%;
-  background: url("img/linea_6.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position-x: center;
-  background-position-y: 0px;
-  transition: all .5s;
-}
-
-body .lineas .izq_2 {
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-content: stretch;
+  -ms-flex-line-pack: stretch;
+  align-content: stretch;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
   vertical-align: top;
-  height: 100%;
-  width: 60%;
+}
+
+footer .flex-item:nth-child(1) {
+  align-items: flex-start;
+  margin: 10px;
+  padding: 20px;
+  font-size: 18px;
+  -webkit-order: 0;
+  -ms-flex-order: 0;
+  order: 0;
+  -webkit-flex: 0 1 auto;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+  -webkit-align-self: auto;
+  -ms-flex-item-align: auto;
+  align-self: auto;
+}
+
+footer .flex-item:nth-child(2) {
+  margin: 10px;
+  padding: 20px;
+  font-size: 18px;
+  -webkit-order: 0;
+  -ms-flex-order: 0;
+  order: 0;
+  -webkit-flex: 0 1 auto;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+  -webkit-align-self: auto;
+  -ms-flex-item-align: auto;
+  align-self: auto;
+}
+
+footer .social {
+  text-align: center;
+  margin-top: 10%;
+}
+
+footer .social a {
   display: inline-block;
+  padding: 7px;
+  width: 30px;
+  height: 30px;
+  margin: 0 5px;
+  background: #fff;
+  border-radius: 50%;
+  vertical-align: middle;
 }
 
-body .lineas .izq_2 .conoce {
-  width: 90%;
-  padding: 3% 5%;
-  height: 35%;
-  box-sizing: border-box;
-  float: right;
-  background-color: #46b09a;
-  -webkit-box-shadow: 10px 10px 0px 0px #EDC74D;
-  -moz-box-shadow: 10px 10px 0px 0px #EDC74D;
-  box-shadow: 10px 10px 0px 0px #EDC74D;
-  margin-right: 1.2%;
-  margin-bottom: 3.5%;
+footer .social a:hover {
+  background: #F23855;
 }
 
-body .lineas .izq_2 .conoce p {
-  font-family: "Covered By Your Grace", cursive;
-  color: white;
-  font-size: 54px;
-  font-weight: 400;
-  text-align: left;
+footer .social a.linkedin {
+  padding: 4px;
 }
 
-body .lineas .izq_2 .conoce #desc {
-  font-family: "Montserrat", sans-serif;
-  color: white;
-  text-align: left;
-  float: right;
-  font-size: 19px;
-  font-weight: 300;
-}
-
-body .lineas .izq_2 .con_1 {
-  height: 60%;
-  width: 44%;
-  overflow: hidden;
-  margin: 1%;
-  float: right;
-  -webkit-box-shadow: 7px 7px 0px 0px #324D5C;
-  -moz-box-shadow: 7px 7px 0px 0px #324D5C;
-  box-shadow: 7px 7px 0px 0px #324D5C;
-}
-
-body .lineas .izq_2 .con_1 .lin_1 {
-  height: 100%;
-  width: 120%;
-  background: url("img/linea_1.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position-x: center;
-  transition: all .5s;
-}
-
-body .lineas .izq_2 .con_2 {
-  height: 60%;
-  width: 44%;
-  overflow: hidden;
-  margin: 1%;
-  float: right;
-  -webkit-box-shadow: 7px 7px 0px 0px #F23855;
-  -moz-box-shadow: 7px 7px 0px 0px #F23855;
-  box-shadow: 7px 7px 0px 0px #F23855;
-}
-
-body .lineas .izq_2 .con_2 .lin_2 {
-  height: 100%;
-  width: 100%;
-  background: url("img/linea_2.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  transition: all .5s;
+footer .social a svg .face, footer .social a svg .twit, footer .social a svg .link {
+  fill: #237f9b;
 }
 /*# sourceMappingURL=wear_estilos.css.map */

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Wear</title>
+
+    <link rel="stylesheet" href="/css/wear_estilos.css">
+
+
+
+</head>
+
+<body>
+
+    <header>
+        <div class="nav_loc">
+            <ul>
+                <img src="/img/logo.png" id="logo" />
+                <li>
+                    <a class="active" href="#home">Home</a>
+                </li>
+                <li>
+                    <a href="#news">Hombres</a>
+                </li>
+                <li>
+                    <a href="#contact">Mujeres</a>
+                </li>
+                <li>
+                    <a href="#about">interacción</a>
+                </li>
+                <li>
+                    <a href="#about">Sobre nosotros</a>
+                </li>
+                <div class="dere">
+                    <a href="https://www.w3schools.com" class="btn loud-link-hover" data-sound="guitar">
+                        <img src="/img/carrito.png" id="carrito" />
+                    </a>
+                    <button type="button" class="buscar">
+                        <img src="/img/lupa.png" alt="" style="vertical-align: middle">
+                    </button>
+                    <input type="search" placeholder="Buscar" class="buscarNavegador">
+                </div>
+            </ul>
+        </div>
+    </header>
+
+    <section class="cuerpo">
+
+        <div class="slide" style='background-image: url("/img/producto.jpg");'>
+
+
+            <div class="coleccion" style='background-image: url("/img/colecciones.png");'>
+
+
+            </div>
+        </div>
+
+        <div class="produc">
+            <div class="imagen_pro" style="background-image: url(/{{camisitas.camisa}})"></div>
+            <div class="detalles">
+
+                <p class="nom">
+                    <b>{{camisitas.nombre}}</b>
+                </p>
+                <p class="desc">
+                    Autor: {{camisitas.Autor}}
+                </p>
+
+                <p class="desc">
+                    Colección: {{camisitas.coleccion}}
+                </p>
+
+                <p class="prec">
+                    <b> ${{camisitas.precio}}</b>
+                </p>
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+</body>

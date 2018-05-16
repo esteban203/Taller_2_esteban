@@ -1,4 +1,5 @@
-const MongoClient = require('mongodb').MongoClient,
+const MongoClient = require('mongodb').MongoClient
+ObjectID = require('mongodb').ObjectID,
     express = require('express'),
     engines = require('consolidate');
 
@@ -23,29 +24,16 @@ MongoClient.connect('mongodb://localhost:27017', function (err, client) {
     console.log("Escuchando servidor")
 });
 
+
+
 /*Esta parte es para cargar las paginas*/
 app.get('/', (req, res) => {
     var prod = db.collection('camisas')
         .find();
 
-    if (req.query.tematica)
+    if (req.query.color)
         prod.filter({
-            tematica: req.query.tematica
-        });
-
-    if (req.query.idioma)
-        prod.filter({
-            idioma: req.query.idioma
-        });
-
-    if (req.query.editorial)
-        prod.filter({
-            editorial: req.query.editorial
-        });
-
-    if (req.query.calificacion)
-        prod.filter({
-            calificacion: parseInt(req.query.calificacion)
+            color: req.query.color
         });
     prod.toArray((err, result) => {
         res.render('index', {       
@@ -53,15 +41,31 @@ app.get('/', (req, res) => {
         });
     })
 });
-/*app.get('/', (req, res) => {
 
-    var camisas = db.collection('camisas')
-        .find();
+app.get('/checkout', (req, res) => {
+    res.render('checking', {
+        tittle: "Checkout"
+    });
+});
 
-        camisas.toArray((err, result) => {
-        console.log('Escuchando servidor')
-        res.render('index', {
-            camisas: result
+//Cambio de pagina a producto individual
+app.get('/producto/:nombre', (req, res) => {
+    db.collection('camisas').find({
+        nombre: req.params.nombre
+    }).toArray((err, result) => res.render('producto', {
+        camisitas: result[0]
+    }))
+
+});
+
+app.get('/productosPorIds', (req, res) => {
+    var arreglo = req.query.id.split(',');
+    arreglo = arreglo.map(function(id) {
+        return new ObjectID(id);
+    });
+    var prod = db.collection('camisas')
+        .find({ _id: { $in: arreglo } })
+        .toArray((err, result) => {
+            res.send(result);
         });
-    })
-});*/
+});

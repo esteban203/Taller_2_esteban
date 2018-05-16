@@ -111,11 +111,30 @@
             "color": "vinotinto",
             "Autor": "Jaime Giraldo",
             "coleccion": "Essensial"
+           
         },
 
         {
-            "nombre": "Beating - Azul",
-            "camisa" : "img/camisas/beating_azuloscuro.jpg",
+            "nombre": "Love - Vinotinto",
+            "camisa" : "img/camisas/love_vinotinto.jpg",
+            "precio": 38000,
+            "color": "vinotinto",
+            "Autor": "Jaime Giraldo",
+            "coleccion": "Essensial"
+        },
+
+        {
+            "nombre": "Love - Azul",
+            "camisa" : "img/camisas/love_azuloscuro.jpg",
+            "precio": 25000,
+            "color": "azul",
+            "Autor": "Camilo Montoya",
+            "coleccion": "Atypical"
+        },
+
+        {
+            "nombre": "Love - Gris",
+            "camisa" : "img/camisas/love_grisclaro.jpg",
             "precio": 25000,
             "color": "gris",
             "Autor": "Camilo Montoya",
@@ -123,31 +142,14 @@
         },
 
         {
-            "nombre": "Beating - Gris",
-            "camisa" : "img/camisas/beating_grisclaro.jpg",
+            "nombre": "Love - Negro",
+            "camisa" : "img/camisas/love_grisoscuro.jpg",
             "precio": 25000,
-            "color": "gris",
+            "color": "negro",
             "Autor": "Camilo Montoya",
             "coleccion": "Atypical"
         },
 
-        {
-            "nombre": "Beating - Negro",
-            "camisa" : "img/camisas/beating_grisoscuro.jpg",
-            "precio": 25000,
-            "color": "gris",
-            "Autor": "Camilo Montoya",
-            "coleccion": "Atypical"
-        },
-
-        {
-            "nombre": "Beating - Vinotinto",
-            "camisa" : "img/camisas/beating_Vinotinto.jpg",
-            "precio": 25000,
-            "color": "gris",
-            "Autor": "Camilo Montoya",
-            "coleccion": "Atypical"
-        },
 
         {
             "nombre": "Buho - Gris",
