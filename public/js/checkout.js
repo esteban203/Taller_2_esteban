@@ -9,6 +9,16 @@ fetch('http://localhost:3000/productosPorIds?id=' + arreglo)
 
         var lista = document.querySelector('.lista');
         res.forEach(function (elem) {
-            lista.innerHTML += '<li class="librito"><div class="contp"><div class="contimagenc"><img width="100" src="' + elem.camisa + '" class="imagenc"></div><div class="continfo"><p class="nomble">' + elem.nombre + '</p><p class="plecio"><span>$</span> ' + elem.precio + '</p></div></div></li>';
+            lista.innerHTML += '<li class="camisita"><div class="contp"> <div class="contimagenc" style="background-image: url(' + elem.camisa + ')"></div><div class="continfo"><p class="nombre">' + elem.nombre + '</p><p class="coleccion"><span>Colección</span> ' + elem.coleccion + '</p> <p class="precio">  <span>$</span> ' + elem.precio + '</p></div></div></li>';
         });
     });
+
+    
+    
+       
+           
+      
+          
+          
+           
+  

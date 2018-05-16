@@ -280,4 +280,62 @@
 .libro:hover {
   box-shadow: 0 0 18px rgba(33, 33, 33, 0.2);
 }
+
+/*checklist--------------------------------------------------*/
+.misProductos {
+  width: 100%;
+  padding: 3%;
+}
+
+.misProductos .infoProductos h1 {
+  padding: 1%;
+  text-align: center;
+  width: 90%;
+  background: #324D5C;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+
+.misProductos .carrito .lista {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  list-style-type: none;
+}
+
+.camisita {
+  background-color: #f2f2f2;
+  margin-top: 2%;
+  display: flex;
+  width: 90%;
+}
+
+.camisita .contp {
+  display: flex;
+}
+
+.camisita .contp .contimagenc {
+  width: 150px;
+  height: 150px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+}
+
+.camisita .contp .continfo {
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+.camisita .contp .continfo p {
+  font-family: "Montserrat", sans-serif;
+}
+
+.camisita .contp .continfo .nombre {
+  font-weight: 700;
+}
+
+.camisita .contp .continfo .codigo {
+  font-weight: 300;
+  color: gray;
+}
 /*# sourceMappingURL=estilos.css.map */
